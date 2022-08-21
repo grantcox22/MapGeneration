@@ -1,0 +1,49 @@
+
+
+.canvas {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: auto;
+    height: 3.8vh; 
+    min-height: 30px;
+    margin: 2px;
+}
+
+
+.settings {
+    color: #fff;
+    position: absolute;
+    padding: 5px;
+    right: 5px;
+    top: 5px;
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1em;
+    user-select: none;
+}
+
+.settings a {
+    margin: 4px 0;
+    color: #fff;
+}
+
+.info {
+    position: absolute;
+    color: #fff;
+    width: 100vw;
+    text-align: center;
+    top: 5px;
+    user-select: none;
+}
